@@ -10,9 +10,9 @@ layout: page
   {% when "map" %}
     <iframe src="{{ page.location }}" width="640" height="480"></iframe>
   {% when "table" %}
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrvOPdNB6VAI1Tac?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-  {% else %}
-    <p>Resource type unknown!</p>
+  <iframe class="airtable-embed" src="https://airtable.com/embed/shrWHS6EIYzvtMdQf?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+  {% when "image" %}
+        <iframe src="{{ page.location }}" width="640" height="480"></iframe>
 {% endcase %}
 <div class="description">
 {{ content }}
