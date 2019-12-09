@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your ok title
-email: ok@example.com
+title: Computational Approaches to Encyclopedic Fiction
+email: jmrankin@umd.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a description. It's not awesome, it's just ok.
+
 baseurl: "/mith735project" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+
 
 # Build settings
 theme: minima
